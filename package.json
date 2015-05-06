@@ -1,0 +1,32 @@
+{
+  "name": "express-stub-api",
+  "version": "0.1.0",
+  "description": "express-stub-api",
+  "license": "MIT",
+  "repository": "chentsulin/express-stub-api",
+  "author": {
+    "name": "C. T. Lin",
+    "email": "chentsulin@gmail.com",
+    "url": "https://github.com/chentsulin"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "iojs": ">= 1.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/chentsulin/express-stub-api/issues"
+  },
+  "homepage": "https://github.com/chentsulin/express-stub-api",
+  "keywords": [
+
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
