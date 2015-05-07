@@ -13,9 +13,6 @@
     "node": ">= 0.10.0",
     "iojs": ">= 1.0.0"
   },
-  "files": [
-    "index.js"
-  ],
   "scripts": {
     "test": "mocha"
   },
@@ -23,10 +20,16 @@
     "url": "https://github.com/chentsulin/express-stub-api/issues"
   },
   "homepage": "https://github.com/chentsulin/express-stub-api",
-  "keywords": [
-
-  ],
+  "keywords": [],
   "devDependencies": {
-    "mocha": "*"
+    "bluebird": "^2.9.25",
+    "express": "^4.12.3",
+    "istanbul": "^0.3.13",
+    "mocha": "*",
+    "native-or-bluebird": "^1.2.0",
+    "supertest": "^0.15.0"
+  },
+  "dependencies": {
+    "condition-stub": "0.0.4"
   }
 }
